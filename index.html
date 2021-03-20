@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Styling</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Pacifico&display=swap" rel="stylesheet">
+    <!-- M Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Actual M -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Noto+Serif&family=Old+Standard+TT&family=Yusei+Magic&display=swap" rel="stylesheet">
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <section class="fnavbar">
+        <nav class="nav-fixed">
+            <div class="nav-wrapper blue-grey">
+                <a href="#" class="brand-logo navText" style="padding-left: 40px;">Advika Home Styling</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+                    <i class="material-icons">menu</i>
+                </a>
+
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="#" onclick="toggleModal();">Home</a></li>
+                    <li><a href="#About" onclick="toggleModal();">About Us</a></li>
+                    <li><a href="#Services" onclick="toggleModal();">Services</a></li>
+                    <li><a href="#Contact" onclick="toggleModal();">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="#" onclick="toggleModal();">Home</a></li>
+            <li><a href="#About" onclick="toggleModal();">About Us</a></li>
+            <li><a href="#Services" onclick="toggleModal();">Services</a></li>
+            <li><a href="#Contact" onclick="toggleModal();">Contact</a></li>
+        </ul>
+    </section>
+
+    <section class="fslider">
+        <div class="slider">
+            <ul class="slides">
+                <li>
+                    <img src="https://images.pexels.com/photos/584399/living-room-couch-interior-room-584399.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=2400"
+                        alt="img one">
+                    <div class="caption center-align white-text header3">
+                        <h3>Advika Home Styling</h3>
+                        <h5 class="light text-lighten-3">We style the best houses around</h5>
+                    </div>
+                </li>
+                <li>
+                    <img src="https://images.pexels.com/photos/5570226/pexels-photo-5570226.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=5472"
+                        alt="img two">
+                    <div class="caption center-align white brown-text lighten-1 header3">
+                        <h3>Advika Home Styling - Finnest Designer</h3>
+                        <h5 class=""> Design Your Life.</h5>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+    </section>
+
+    <section class="descrip" id="About">
+        <div class="section white center">
+            <h2 class="header blue-grey-text">Advika Home Styling</h2>
+            <div class="row container center">
+                <div class="col center l8 s12 move">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia ex beatae dolor atque officiis
+                    facere iste repudiandae mollitia natus magnam illum eveniet, voluptates eum provident perferendis
+                    dolorum, amet consectetur, fugit eaque ad vel. Omnis, adipisci inventore vero aperiam hic ab
+                    quibusdam deserunt ipsum eos accusantium nihil. Non, eos. Magnam minus illo cumque quis facilis
+                    neque rerum quia dolorum laudantium natus consequuntur, unde totam corporis eos architecto. Fuga
+                    repellat magnam totam ad cum. Perferendis veniam eos praesentium dolore aut similique magnam est
+                    itaque mollitia quaerat autem veritatis explicabo at culpa unde quas animi eligendi quasi iusto
+                    obcaecati, cumque deleniti sunt. Illo?
+                </div>
+                <div class="col center l4 s12">
+                    <img src="images/undraw_interior_design.png" style="object-fit: contain;" height="200" width="auto"
+                        alt="" srcset="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="fcards" id="Services">
+        <h2 class="header blue-grey-text center">My Services</h2>
+        <div class="row" style="padding: 30px 50px 35px 50px; ">
+            <div class="col s12 m12 l4">
+                <div class="card">
+                    <div class="card-image">
+                        <img
+                            src="https://images.pexels.com/photos/5641999/pexels-photo-5641999.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+                        <span class="card-title titleService white green-text lighten-1" style="padding-top: 0px; padding-bottom: 0px;"><b> Home Styling Workshop</b></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m12 l4">
+                <div class="card">
+                    <div class="card-image">
+                        <img
+                            src="https://images.pexels.com/photos/4846101/pexels-photo-4846101.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+                        <span class="card-title titleService white green-text lighten-1" style="padding-top: 0px; padding-bottom: 0px;"><b>Full Interior Styling</b></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m12 l4">
+                <div class="card">
+                    <div class="card-image">
+                        <img
+                            src="https://images.pexels.com/photos/2098691/pexels-photo-2098691.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+                        <span class="card-title titleService white green-text lighten-1" style="padding-top: 0px; padding-bottom: 0px;"><b>Small Space Makeover</b></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="fparallax">
+        <div class="parallax-container">
+            <div class="parallax"><img
+                    src="https://images.pexels.com/photos/5570222/pexels-photo-5570222.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=2500">
+            </div>
+        </div>
+    </section>
+
+    <section class="fabout">
+        <div class="section white center">
+            <div class="row container">
+                <h2 class="header blue-grey-text">About Us</h2>
+                <p class="grey-text text-darken-3">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum quas, consequatur nemo sed quos
+                    suscipit omnis voluptate hic, soluta voluptatibus expedita dolore modi qui a? Inventore veritatis
+                    suscipit delectus excepturi explicabo quis maxime esse eos architecto praesentium ut deleniti
+                    perferendis consequuntur illo ipsum provident quia, dolores velit odit consectetur qui officiis.
+                    Distinctio laudantium omnis deleniti, molestias molestiae nam non, nihil cumque rem repellat a quia?
+                    Maiores atque dolorem unde harum minima dignissimos veniam ducimus amet quidem, exercitationem,
+                    nulla possimus repudiandae facere commodi quod enim ex beatae adipisci minus accusantium eius eos
+                    temporibus! Quae cum ex ipsa quaerat dicta, odio voluptatibus?
+                </p>
+                <a href="" class="btn waves-effect waves-light green lighten-3">READ
+                    MORE</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="fwhyChooseUs  yellow lighten-5" style="padding-top: 10px; padding-bottom: 40px;">
+        <h2 class="header center blue-grey-text">Why Choose Us</h2>
+        <div class="row" style="padding-left: 50px; padding-right: 50px;">
+            <div class="col s12 l3 center" style="padding-left: 50px; padding-right: 50px; padding-top: 30px;">
+                <i class="medium material-icons icon-color">monetization_on</i>
+                <h5 class="header2">Easy Financing</h5>
+            </div>
+            <div class="col s12 l3 center" style="padding-left: 50px; padding-right: 50px; padding-top: 30px;">
+                <i class="medium material-icons icon-color">contacts</i>
+                <h5 class="header2">Free, At Home Consultations.</h5>
+            </div>
+            <div class="col s12 l3 center" style="padding-left: 50px; padding-right: 50px; padding-top: 30px;">
+                <i class="medium material-icons icon-color">stars</i>
+                <h5 class="header2">Award Winning Service</h5>
+            </div>
+            <div class="col s12 l3 center" style="padding-left: 50px; padding-right: 50px; padding-top: 30px;">
+                <i class="medium material-icons icon-color">check_box</i>
+                <h5 class="header2">Licensed & nsured</h5>
+            </div>
+        </div>
+    </section>
+
+    <section class="ftestimonials">
+        <div class="section white center">
+            <div class="carousel testimonials" style="margin-top: 30px; margin-bottom: 30px;">
+                <h2 class="header blue-grey-text" style="margin-top: 10px; margin-bottom: 30px;">Satisfied Customers</h2>
+                <a href="#" class="carousel-item">
+                    <div class="row">
+                        <div class="col s12">
+                            <div class="card green lighten-3">
+                                <div class="card-content white-text">
+                                    <p>I am a very simple card. I am good at containing small bits of information.
+                                        I am convenient because I require little markup to use effectively.</p>
+                                    <span class="card-title" style="margin-top: 10px; margin-bottom: 10px;">Girija
+                                        Pathak
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="carousel-item">
+                    <div class="row">
+                        <div class="col s12">
+                            <div class="card  green lighten-3">
+                                <div class="card-content white-text">
+                                    <p>I am a very simple card. I am good at containing small bits of information.
+                                        I am convenient because I require little markup to use effectively.</p>
+                                    <span class="card-title" style="margin-top:10px; margin-bottom: 10px;">Kaushik
+                                        Sahani</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="carousel-item">
+                    <div class="row">
+                        <div class="col s12">
+                            <div class="card  green lighten-3">
+                                <div class="card-content white-text">
+                                    <p>I am a very simple card. I am good at containing small bits of information.
+                                        I am convenient because I require little markup to use effectively.</p>
+                                    <span class="card-title" style="margin-top:10px; margin-bottom: 10px;">Riddhi
+                                        Mali</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="carousel-item">
+                    <div class="row">
+                        <div class="col s12">
+                            <div class="card  green lighten-3">
+                                <div class="card-content white-text">
+                                    <p>I am a very simple card. I am good at containing small bits of information.
+                                        I am convenient because I require little markup to use effectively.</p>
+                                    <span class="card-title" style="margin-top:10px; margin-bottom: 10px;">Shashank
+                                        Pednekar</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="carousel-item">
+                    <div class="row">
+                        <div class="col s12">
+                            <div class="card  green lighten-3">
+                                <div class="card-content white-text">
+                                    <p>I am a very simple card. I am good at containing small bits of information.
+                                        I am convenient because I require little markup to use effectively.</p>
+                                    <span class="card-title" style="margin-top:10px; margin-bottom: 10px;">Gitika
+                                        Varma</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="carousel-item">
+                    <div class="row">
+                        <div class="col s12">
+                            <div class="card  green lighten-3">
+                                <div class="card-content white-text">
+                                    <p>I am a very simple card. I am good at containing small bits of information.
+                                        I am convenient because I require little markup to use effectively.</p>
+                                    <span class="card-title" style="margin-top:10px; margin-bottom: 10px;">Seema
+                                        Gosavi</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="carousel-item">
+                    <div class="row">
+                        <div class="col s12">
+                            <div class="card  green lighten-3">
+                                <div class="card-content white-text">
+                                    <p>I am a very simple card. I am good at containing small bits of information.
+                                        I am convenient because I require little markup to use effectively.</p>
+                                    <span class="card-title" style="margin-top:10px; margin-bottom: 10px;">Dhiraj
+                                        Desai</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer" id="Contact">
+        <footer class="footer-one  yellow lighten-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col l6 s12">
+                        <h4 class="blue-grey-text header3">Contact Us</h4>
+                        <i class="small material-icons icon-color ">place</i>
+                        <p class="grey-text">
+                             Lorem, ipsum., Maharashtra, India
+                        </p>
+                        <i class="small material-icons icon-color ">call</i>
+                        <p class="grey-text">
+                             +91-8965745236
+                        </p>
+                    </div>
+                    <div class="col l6 s12">
+                        <h4 class="blue-grey-text header3">Social Media</h4>
+                        <ul>
+                            <li><img style="margin-right: 5px;" src="https://img.icons8.com/android/15/a5d6a7/facebook-new.png"/><a href="#" class="grey-text">Facebook</a></li>
+                            <li><img style="margin-right: 5px;" src="https://img.icons8.com/ios-filled/15/a5d6a7/instagram-new.png"/><a href="#" class="grey-text">Instagram</a></li>
+                            <li><img style="margin-right: 5px;" src="https://img.icons8.com/android/15/a5d6a7/twitter.png"/><a href="#" class="grey-text">Twitter</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row footer-two blue-grey" style="margin-bottom: 0;">
+                <div class="col l6 s12">
+                    <p class="white-text">&copy; Advika Home Styling</p>
+                </div>
+                <div class="col l6 s12">
+                    <p class="white-text">Designed by Lorem Team</p>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+    <section class="infomodal">
+        <div id="modal3" class="modal">
+            <div class="modal-content">
+                <h4 id="info-modal-heading">Link Disabled</h4>
+                <p id="info-modal-content">Sorry! All links are disabled as of now.</p>
+            </div>
+            <div class="modal-footer">
+                <a href="" class="modal-close waves-effect btn-flat">Close</a>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+<!-- jquery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous">
+    </script>
+<!-- M script -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<!-- custom js -->
+<script src="js/loader.js"></script>
+
+</html>

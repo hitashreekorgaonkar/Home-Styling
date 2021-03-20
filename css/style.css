@@ -1,0 +1,38 @@
+.slider .indicators .indicator-item.active {
+    background-color: #a5d6a7;
+}
+
+.move{
+    margin-top: 20px;
+}
+
+.parallax-container {
+    min-height: 350px;
+    height: auto;
+}
+
+.icon-color {
+    color: #a5d6a7;
+}
+
+i.small {
+    font-size: 25px;
+    float: left;
+    margin-right: 15px;
+}
+
+.navText {
+    font-family: 'Acme', sans-serif;
+}
+
+.header {
+    font-family: 'Old Standard TT', serif;
+}
+
+.header3 {
+    font-family: 'Noto Serif', serif;
+}
+
+.titleService{
+    font-family: 'Yusei Magic', sans-serif;
+}
